@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    /* padding: 25px 50px 75px 100px; */
+    color: rgb(37, 31, 4);
+    text-decoration-color: cornsilk;
+    font-size: 18px;
+    /* border: solid darkblue; */
+}
+
+body {
+    background-color: rgb(91, 135, 230);
+    /* background-image: url(https://images.pexels.com/photos/204262/pexels-photo-204262.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center; */
+    /* height: 100vh; */
+}
+
+#welcome {
+    color: rgb(13, 13, 230);
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    font-style: comic;
+    text-align: center;
+}
+
+
+/* 
+#destinywelcome {
+
+}
+
+#destinywelcome2 {
+
+} */
+
+#intro {
+    text-align: center;
+    font-family: "Nanum Myeongjo", serif;
+    border-style: double;
+    color: rgb(18, 18, 204);
+}
+
+
+/* start of styling nice nav bar by DivinectorWeb*/
+
+.menu-area li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+
+.custom-padding {
+    padding-top: 25px;
+}
+
+#navbar {
+    position: relative;
+    padding: 10px 20px 10px 10px;
+    text-align: right;
+    z-index: 1;
+    background: #333;
+    margin: 0 auto;
+    width: calc(100% - 60px);
+}
+
+.logo {
+    width: 15%;
+    float: left;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.menu-area li a:hover {
+    background: tomato;
+    color: #fff;
+}
+
+nav:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 100%;
+    border-top: 10px solid #333;
+    border-right: 10px solid #333;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+nav:after {
+    position: absolute;
+    content: '';
+    border-top: 10px solid #333;
+    border-left: 10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 100%;
+    right: 0;
+}
+
+
+/*  end of styling nice nav bar */
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(20, 12, 90);
+}
+
+h2 {
+    font-size: 35px;
+    text-align: left;
+    font-style: oblique;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: left;
+    font-style: oblique;
+    color: rgb(20, 12, 90);
+}
+
+#jumpnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(51, 51, 51);
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+li {
+    list-style: none;
+}
+
+#ps1pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+#returntop {
+    padding: 0px 30px 0px 0px;
+    z-index: 1;
+    background: #333;
+    margin: 0 auto;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+}
+
+.contacts {
+    border-style: double;
+    text-align: center;
+}
+
+.contacts li a {
+    list-style: none;
+    text-align: center;
+}
+
+.contacts button {
+    background-color: darkblue;
+}
+
+.reviewintro {
+    text-align: center;
+}
+
+#review1 {
+    padding-left: 15px;
+    border-style: double;
+}
+
+#destinyreviewpics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+
+/* .container {
+    display: flex;
+    min-height: 10vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.mini {
+    color: white;
+    width: 10%;
+    font-size: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+#container1 {
+    background-color: blue;
+}
+
+#container2 {
+    background-color: red;
+}
+
+#container3 {
+    background-color: green;
+}
+
+#container4 {
+    background-color: yellow;
+}
+
+#container5 {
+    background-color: violet;
+}
+
+#container6 {
+    background-color: cyan;
+}
+
+#container7 {
+    background-color: orange;
+}
+
+#container8 {
+    background-color: green;
+}
+
+#container9 {
+    background-color: blue;
+}
+
+#container10 {
+    background-color: red;
+} */
+
+
+/* .class */
+
+
+/* #ID */
+
+
+/* body {
+    background-image: url(“background.jpg”);
+} */
